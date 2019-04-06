@@ -18,15 +18,14 @@ const sizeIcon = "4x";
 const getWeatherIcon = weatherState => {
     const icon = icons[weatherState];
     if(icon)
-        return <WeatherIcons ClassName="wicon" name={icon} size={sizeIcon}/>
+        return <WeatherIcons className="wicon" name={icon} size={sizeIcon}/>
     else 
-    return <WeatherIcons ClassName="wicon" name='day-sunny' size={sizeIcon}/>
+    return <WeatherIcons className="wicon" name='day-sunny' size={sizeIcon}/>
 }
 
 
 class WeatherTemperature extends Component{
     render(){
-
         return(
             <div className="weatherTemperatureCont">
                 {getWeatherIcon(this.props.weatherState)}
