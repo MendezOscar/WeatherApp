@@ -1,17 +1,16 @@
 import React, { Component }from 'react';
 import WeatherIcons from 'react-weathericons';
-import {CLOUDY, RAIN, SNOW, SUN, CLOUD, WINDY} from '../../../constants/weathers';
+import {RAIN, SNOW, SUN, CLOUD, THUNDER, DRIZZLE} from '../../../constants/weathers';
 import PropTypes from 'prop-types';
 import './styles.css';
-
 
 const icons = {
     [SUN]: "day-sunny",
     [RAIN]: "rain", 
     [CLOUD]: "cloud",
-    [CLOUDY]: "cloudy",
     [SNOW]: "snow",
-    [WINDY]: "windy"
+    [THUNDER]: "day-thunderstore",
+    [DRIZZLE]: "day-showers",
 };
 
 const sizeIcon = "4x";
