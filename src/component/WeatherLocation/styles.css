@@ -8,10 +8,11 @@
 
 .LocationCont h1 {
     margin: 0;
+    font-size: 28pt;
 }
 
 .WeatherLocationCont {
-    width: 400px;
+    width: 450px;
     padding: 25px;
     font-family: 'Source Sans Pro', sans-serif;
     box-shadow: 10px 10px 40px -12px rgba(0, 0, 0, 0.75);
